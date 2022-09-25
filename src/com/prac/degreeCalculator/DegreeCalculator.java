@@ -1,4 +1,4 @@
-package com.prac.driver;
+package com.prac.degreeCalculator;
 
 public class DegreeCalculator {
     private final int TOTAL_DEGREE = 360;
@@ -36,8 +36,6 @@ public class DegreeCalculator {
 
     private float getDifferenceOfDegree(){
         getDispositionPerMinutes();
-        System.out.println(getDegreeOfMinutes());
-        System.out.println(getTotalDegreeOfHour());
         return Math.abs(getDegreeOfMinutes()-getTotalDegreeOfHour());
     }
 

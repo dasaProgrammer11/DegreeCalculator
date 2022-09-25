@@ -1,4 +1,6 @@
-package com.prac.driver;
+package com.prac.degreePractice;
+
+import com.prac.degreeCalculator.DegreeCalculator;
 
 public class DegreePractice {
     public static void main(String[] args){
